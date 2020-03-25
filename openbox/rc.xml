@@ -250,6 +250,7 @@
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
+
     <!-- Keybindings for windows -->
     <keybind key="A-F4">
       <action name="Close"/>
@@ -264,6 +265,15 @@
         <menu>client-menu</menu>
       </action>
     </keybind>
+
+   <keybind key="A-F3">
+     <action name="Iconify"/>
+   </keybind>
+
+   <keybind key="W-t">
+     <action name="ToggleDecorations"/>
+   </keybind>
+
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
@@ -810,5 +820,15 @@
 
   # end of the example
 -->
+
+  <application class="*">
+     <decor>no</decor>
+     <maximized>false</maximized>
+     <focus>yes</focus>
+     <layer>normal</layer>
+     <fullscreen>no</fullscreen>
+  </application>
+
+
   </applications>
 </openbox_config>
