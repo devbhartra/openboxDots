@@ -15,4 +15,10 @@ nm-applet &
 nitrogen --restore &
 
 #running polybar
-~/.config/polybar/launch.sh
+~/.config/polybar/launch.sh &
+
+#disabling screensavers (?)
+xset s off &
+
+#setting the keyboard layout to US
+setxkbmap -layout us

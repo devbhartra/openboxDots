@@ -2,7 +2,7 @@
 
 count=0
 disconnected=""
-disconnected1="Nah!"
+disconnected1="No Network Connected!"
 wireless_connected=""
 ethernet_connected=""
 

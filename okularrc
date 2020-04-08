@@ -1,0 +1,24 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+Height 768=665
+State=AAAA/wAAAAD9AAAAAAAAApkAAAJ9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=665
+
+[Recent Files]
+File1[$e]=$HOME/Sem 6/Cloud/Assignment_2.pdf
+File2[$e]=$HOME/Downloads/CD Progress Report.pdf
+File3[$e]=$HOME/Downloads/CD Progress Report(1).pdf
+File4[$e]=$HOME/Downloads/CD Progress Report Phase 3.pdf
+File5[$e]=$HOME/Sem 6/COURSEINFO.pdf
+File6[$e]=/usr/share/doc/manjaro/i3_help.pdf
+File7[$e]=$HOME/Sem 6/Cloud/Assignment_1.pdf
+Name1[$e]=Assignment_2.pdf
+Name2[$e]=CD Progress Report.pdf
+Name3[$e]=CD Progress Report(1).pdf
+Name4[$e]=CD Progress Report Phase 3.pdf
+Name5[$e]=COURSEINFO.pdf
+Name6[$e]=i3_help.pdf
+Name7[$e]=Assignment_1.pdf
