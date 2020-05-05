@@ -49,4 +49,7 @@ xdg-user-dirs-gtk-update &
 #numlockx &
 
 #autostart the polybar
-. ~/.config/polybar/launch.sh
+. ~/.config/polybar/launch.sh &
+
+#set battery wallpaper
+#bwall -slash &

@@ -1,0 +1,29 @@
+;=====================================================
+;     File Includes
+;=====================================================
+
+[section/base]
+include-file = $HOME/.config/polybar/master.conf
+include-file = $HOME/.config/polybar/modules.conf
+
+
+;=====================================================
+;     Openbox Bars
+;=====================================================
+
+[bar/openbox-bar]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+; primary monitor '$(xrandr -q | grep " connected primary" | cut -d ' ' -f1)'
+monitor = 
+monitor-fallback = 
+
+;tray-position = center
+;tray-padding =
+;tray-transparent = true
+;tray-background = #0063ff
+
+modules-left   = jgmenu workspaces window_switch
+modules-center = 
+modules-right  = wired_network wireless_network pkg battery memory thermal0 thermal1 thermal2 coreuse clock

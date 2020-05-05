@@ -55,7 +55,7 @@ can be one of the
 'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Arc-Clone</name>
+    <name>Raven-Crimson</name>
     <cornerRadius menu="no">5</cornerRadius>
     <titleLayout>DSIMC</titleLayout>
     <!--
