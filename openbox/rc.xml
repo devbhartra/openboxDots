@@ -55,7 +55,7 @@ can be one of the
 'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Raven-Crimson</name>
+    <name>Raven-Cyan</name>
     <cornerRadius menu="no">5</cornerRadius>
     <titleLayout>DSIMC</titleLayout>
     <!--
@@ -460,6 +460,17 @@ use this in other
     <keybind key="XF86AudioMute">
       <action name="Execute">
         <command>amixer set Master toggle</command>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute">
+        <command>xbacklight -inc 10</command>
+      </action>
+    </keybind>
+
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute">
+        <command>xbacklight -dec 10</command>
       </action>
     </keybind>
     <!-- Lockscreen -->

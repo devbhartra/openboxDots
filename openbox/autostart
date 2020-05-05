@@ -48,6 +48,9 @@ xdg-user-dirs-gtk-update &
 ### uncomment next line
 #numlockx &
 
+#disable annoying beep
+xst b off
+
 #autostart the polybar
 . ~/.config/polybar/launch.sh &
 
